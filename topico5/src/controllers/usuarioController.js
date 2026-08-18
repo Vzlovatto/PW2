@@ -1,9 +1,6 @@
 module.exports = {
     listar(req,res){
-        return res.json([
-            {id: 1, nome: 'Vitor'},
-            {id: 2, nome: 'Liro'}
-        ]);
+        res.send('Listando usuarios');
     },
 
     criar(req,res){
